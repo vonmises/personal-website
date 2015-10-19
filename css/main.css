@@ -29,7 +29,7 @@ body {
     padding-top: 50px;
 }
 
-.progress{
+.progress {
     height: 2em;
 }
 
@@ -40,7 +40,12 @@ body {
     color: black;
 }
 
-.comma{
+.comma {
     font-family: sans-serif;
     font-weight: lighter;
+}
+
+.portfolio {
+    width: 300px;
+    height: auto;
 }
