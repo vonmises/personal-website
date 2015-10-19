@@ -1,0 +1,46 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.navbar-inverse, .navbar-brand {
+    font-size: 1.4em;
+}
+
+.navbar-inverse a {
+    color: white;
+}
+
+.navbar-inverse a:hover, a:focus {
+    color: #000;
+}
+
+.container h2, h4 {
+    font-weight: bolder;
+    color: teal;
+}
+
+.container p {
+    font-size: 1.5em;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+.progress{
+    height: 2em;
+}
+
+.progress-bar {
+    padding-top: 0.2em;
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: black;
+}
+
+.comma{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
