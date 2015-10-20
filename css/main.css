@@ -1,7 +1,17 @@
+html, body { height:100%; }
+
 body {
-    padding-top: 50px;
-    padding-bottom: 20px;
     font-family: 'Poiret One', sans-serif;
+    background-color: #fff;
+    color: black;
+    background-size: cover;
+}
+
+.jumbotron {
+    background: url("../images/background.jpg") no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar-inverse, .navbar-brand {
@@ -25,6 +35,11 @@ body {
     font-size: 1.5em;
 }
 
+.shadow {
+    padding-bottom: 50px;
+    box-shadow: 0px 0px 10px 5px #dfdbff;
+}
+
 .section {
     padding-top: 50px;
 }
@@ -37,15 +52,23 @@ body {
     padding-top: 0.2em;
     font-size: 1.3em;
     font-weight: bolder;
-    color: black;
+    color: white;
+    text-shadow: 1px 1px maroon;
 }
 
 .comma {
     font-family: sans-serif;
-    font-weight: lighter;
 }
 
 .portfolio {
     width: 300px;
     height: auto;
+}
+
+legend {
+    border: 0;
+}
+
+.fa-github {
+    color: #0074d9;
 }
