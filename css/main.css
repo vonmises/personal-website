@@ -2,8 +2,8 @@ html, body { height:100%; }
 
 body {
     font-family: 'Poiret One', sans-serif;
-    background-color: #fff;
-    color: black;
+    background-color: #222;
+    color: white;
     background-size: cover;
 }
 
@@ -27,12 +27,16 @@ body {
 }
 
 .container h2, h4 {
-    font-weight: bolder;
-    color: teal;
+    color: #39CCCC;
+    text-shadow: 1px 1px #0074D9;
 }
 
 .container p {
     font-size: 1.5em;
+}
+
+.round {
+    border-radius: 12px; 
 }
 
 .shadow {
@@ -46,14 +50,15 @@ body {
 
 .progress {
     height: 2em;
+    margin-right: 35px;
 }
 
 .progress-bar {
     padding-top: 0.2em;
     font-size: 1.3em;
     font-weight: bolder;
-    color: white;
-    text-shadow: 1px 1px maroon;
+    color: black;
+    text-shadow: 1px 1px #0074D9;
 }
 
 .comma {
@@ -67,8 +72,9 @@ body {
 
 legend {
     border: 0;
+    color: white;
 }
 
 .fa-github {
-    color: teal;
+    color: #39CCCC;
 }
