@@ -72,9 +72,8 @@ h3{
     height: 240px;
 }
 
-fieldset input{
-    font-weight: 700px;
-    color: #000;
+form div{
+    font-weight: 400;
 }
 
 legend {
